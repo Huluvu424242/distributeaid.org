@@ -1,17 +1,17 @@
 import cx from 'classnames'
-import { FunctionComponent, ReactNode } from 'react'
+import { FunctionComponent, PropsWithChildren, ReactNode } from 'react'
 import { getAttributeValue } from '../../utils/types'
 
-interface Props {
-  label: ReactNode
-  /**
-   * Hide the field if it has no children
-   */
-  hideIfEmpty?: boolean
-  stacked?: boolean
-}
-
-const ReadOnlyField: FunctionComponent<Props> = (props) => {
+const ReadOnlyField: FunctionComponent<
+  PropsWithChildren<{
+    label: ReactNode
+    /**
+     * Hide the field if it has no children
+     */
+    hideIfEmpty?: boolean
+    stacked?: boolean
+  }>
+> = (props) => {
   if (!getAttributeValue(props, 'children')) {
     return null
   }
