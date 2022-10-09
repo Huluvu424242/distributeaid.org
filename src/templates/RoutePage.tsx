@@ -20,16 +20,6 @@ import vanIcon from '../images/regular-routes/icons/openmoji_van.svg'
 import halfPalletIcon from '../images/regular-routes/icons/noun_Pallet_3364535.svg'
 import palletIcon from '../images/regular-routes/icons/noun_Pallet_3307940.svg'
 
-const netIcon = require('../images/regular-routes/icons/noun_net_2428552.svg')
-const mapIcon = require('../images/regular-routes/icons/noun_Maps_3610706.svg')
-const truckIcon = require('../images/regular-routes/icons/openmoji_truck.svg')
-const heartBillIcon = require('../images/regular-routes/icons/noun_Heart_Bill_98293.svg')
-const boxIcon = require('../images/regular-routes/icons/openmoji_box.svg')
-const sackIcon = require('../images/regular-routes/icons/openmoji_bag.svg')
-const vanIcon = require('../images/regular-routes/icons/openmoji_van.svg')
-const halfPalletIcon = require('../images/regular-routes/icons/noun_Pallet_3364535.svg')
-const palletIcon = require('../images/regular-routes/icons/noun_Pallet_3307940.svg')
-
 type TemplateProps = {
   data: {
     route: Route
