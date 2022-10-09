@@ -1,7 +1,6 @@
 import resolveConfig from 'tailwindcss/resolveConfig'
 import { KeyValuePair } from 'tailwindcss/types/config.js'
 import tailwindConfig from '../../tailwind.config.js'
-import { getAttributeValue } from './types'
 
 const siteTheme = resolveConfig(tailwindConfig).theme
 
